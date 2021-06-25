@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 60px;
+    margin:0 auto;
+    padding: 3%;
+}    
+
+p{
+    color: dimgrey;
+}
+
+.pink-highlight{
+    color: rgb(199, 85, 199);
+}    
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+
+.header-area{
+    height: 600px;
+    width: 100%;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-position: bottom;
+    background-size: cover;
+    
+    
+}
+
+.hello-area{
+    padding-left: 5%;
+    
+    
+}
+
+.biography-area{
+    height:800px;
+    width: 100%;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: cover;
+    background-position: right center;
+    
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(30deg, rgb(199, 85, 199), rgb(199, 43, 165));
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: .9rem;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.work-area{
+    text-align: center;
+    height: 600px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+
+}
+
+#image-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.single-image{
+    width: 30%;
+    height: auto;
+    margin: 1%;
+
+}
+
+.client-area{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 4px;
+    padding-bottom: 2%;
+    
+    
+}
+
+.message-area{
+    text-align: center;
+    background-color: rgb(192, 129, 192);
+    height: auto;
+    width: 60%;
+    margin: 5% auto;
+    padding: 1%;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+footer p{
+    text-align: center;
+}
